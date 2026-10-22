@@ -39,9 +39,7 @@
                 originalName.lastIndexOf("/") + 1
             );
 
-            // Lab: không kiểm tra phần mở rộng file.
-            // File được lưu ngoài webroot để không thể
-            // thực thi như JSP bởi Tomcat.
+
             Path uploadDir = Paths.get(
                 "/var/lib/tomcat10/webapps/shopee/uploads"
             );
